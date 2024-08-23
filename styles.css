@@ -79,3 +79,26 @@
 #result span {
   color: #ffff76;
 }
+
+@media (max-width: 480px) {
+  .calculator h1 {
+    font-size: 2rem;
+  }
+
+  .input-box {
+    padding: 15px;
+  }
+
+  .input-box input {
+    font-size: 0.9rem;
+  }
+
+  .input-box button {
+    padding: 12px 25px;
+    font-size: 0.9rem;
+  }
+
+  #result {
+    font-size: 1rem;
+  }
+}
